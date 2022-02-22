@@ -15,9 +15,10 @@
 
 
 .search_input input{
-    /* flex: 1; */
+    flex: 1;
+    justify-content: right;
+    padding-right: 102px;
     align-items: flex-end;
-    padding-right: 5em;
     font-size: medium;
     border: none;
 }
@@ -27,6 +28,8 @@
 }
 .search_icon{
     color: gray;
+    position: relative;
+    right: 10px;
 }
 
 
